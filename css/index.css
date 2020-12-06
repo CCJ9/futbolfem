@@ -1,0 +1,32 @@
+/* imatge i iframe */
+.clearfix {
+    overflow: auto;
+  }
+.Dreta {
+    margin-top: 40px;
+    padding-left: 60px;
+    float: right;
+}
+.Left {
+    padding-left: 220px;
+    margin-top: 90px;
+    float: left;
+}
+.info {
+    overflow: auto;
+    text-align: center;
+    overflow: auto;
+}
+#submenu {
+    text-align:center;
+    position: relative; 
+}
+#submenu li {
+    display: inline;
+}
+
+.formularicent {
+    overflow: auto;
+    text-align: center;
+    overflow: auto;
+}

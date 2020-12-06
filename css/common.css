@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+  }
+/* Imagen de Primera Iberdrola centrada */
+#fotoprincipal {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(61, 132, 224);
+}
+  
+p {
+    margin: 10px;
+    padding: 10px;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/* Menu */
+.fixmenu {
+    overflow: auto;
+    background-color:  #2175bc;
+  }
+#menu {
+    float: left;
+    padding: 0;
+    text-align:center;
+    position: relative; 
+    left: 50%;
+    }
+#menu li {
+    display: inline;
+    }
+#menu li a {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    position: relative; 
+    right: 50%;
+    padding: 10px;
+    background-color: #08528f;
+    color: #fff;
+}
+#menu li a:hover {
+    background-color: #030303;
+    padding-bottom: 12px;
+    }
+
+/* footer */
+footer {
+    background: #2175bc;
+    color: rgb(0, 0, 0);
+    line-height: 50px;
+    padding: 0 20px;
+    text-align:center;
+}
+
+/* Resultats */
+h2 {
+    text-align: center;
+    color: rgb(61, 132, 224);
+}
+table.center2 {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+/* Videos de galeria.html */
+.videos {
+    text-align: center;
+}
+/* info general */
+.historiaclub {
+    text-align: center;
+}
+
+/* Planter */
+table.taulaplanter {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+/* links */
+/* visited link */
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+      
+/* mouse over link */
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+      
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+.formulari {
+    text-align: center;
+}

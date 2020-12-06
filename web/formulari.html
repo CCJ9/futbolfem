@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>UD Granadilla</title>
+  </head>
+  <body>
+    <img id="fotoprincipal" src="../img/iberdrola.png" alt="Primera Iberdrola">
+    <header>
+      <div class="fixmenu">
+      <ul id="menu">
+        <li><a href="../index.html">Inici</a></li>
+        <li><a href="classif.html">Classificació</a></li>
+        <li><a href="resultats.html">Resultats</a></li>
+        <li><a href="galeria.html">Galeria Audiovisual</a></li>
+      </ul>
+    </div>
+    </header>
+    <div class="formulari">
+    <h1>Enquesta Satisfacció</h1>
+    <form action="./validaenquesta.php" target="_blank">
+    <li>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_mail">
+    </li>
+    <br>
+    <li>
+       <label for="nom">Nom Complet:</label>
+       <input type="text" id="nom" name="user_name">
+    </li>
+    <br>
+    <li> Puntuació Web Info: <select name="puntuacio">
+    
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    
+    </select>
+    </li>
+     <br>
+    <li>Valoració Global:
+        <input type="radio" name="enbrd" value="e"> Excelent
+        <input type="radio" name="enbrd" value="n"> Notable
+        <input type="radio" name="enbrd" value="b"> Bona
+        <input type="radio" name="enbrd" value="r"> Regular
+        <input type="radio" name="enbrd" value="d"> Dolenta
+    </li>
+    <br>
+    <li>Color del tema:
+    <input type="color" name="color" value="#1BF44A" />
+    </li>
+    <br>
+    <li>
+       <label for="obs">Observacions:</label>
+       <textarea id="obs" name="user_observacions"></textarea>
+    </li>
+    <br>
+    <p class="button">
+        <button type="enviar">Envíe su mensaje</button>
+    </p>
+    <p class="button">
+        <button type="reset">Reset</button>
+    </p>
+    </form>
+    </div>
+    <br>
+    <br>
+    <footer>
+        &copy; 2020-21 
+        <h3>Contacte: 932 45 67 98</h3>
+        <a href="https://acortar.link/OygTm" target="_blank"> <img src="../img/twitter.png" alt="twitter" style="width: 40px; height: 40px; "></a>
+        <a href="https://www.instagram.com/udgtenerife/" target="_blank"> <img src="../img/insta.jpg" alt="instagram" style="width: 40px; height: 40px; "></a>
+    </footer>
+</body>
+</html>
